@@ -6,7 +6,7 @@
 
 ## Mobile App - Prototype
 
-## Gun JS Backend with React Implimentaaion - Beta
+## Gun JS Backend with Node.js Implimentaion - Beta
 
 ## Matrix(Server)/Cinny(Client) Implimentation - Final
 
