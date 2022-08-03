@@ -1,6 +1,12 @@
-Hi there 👋
+# Project Nexus - A CMPE 195 Senior Project for SJSU (Spring/Summer 2022)
+## By Gianine Dao, Alfonso Garibay, Aaron Rice, Yabsera Tasaw
+## Teaching Advisor: Mahima Suresh
 
-Post readme here
+# Mobile App - Prototype
+
+# Gun JS Backend with React Implimentaaion - Beta
+
+# Matrix(Server)/Cinny(Client) Implimentation - Final
 
 <!--
 
