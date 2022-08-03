@@ -1,4 +1,4 @@
-# Project Nexus - A CMPE 195 Senior Project for 
+# Project Nexus - A CMPE 195 Senior Project
 ### SJSU (Spring/Summer 2022)
 
 #### By Gianine Dao, Alfonso Garibay, Aaron Rice, Yabsera Tasaw
