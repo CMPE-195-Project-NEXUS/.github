@@ -13,7 +13,7 @@ To deploy this on a public URL be sure to follow the guidence outlined below to 
 
 The Matrix API will use unique identifier like `@<username>:<your-domain>` in authermtication and establishing identities on the server.
 
-The --Ansible-Deployment-Script-for-Nexus-Matrix-configuration-- is a helper ansible script created by Slavi Pantaleev (https://github.com/spantaleev) and extended by Matrix contributors to automate the task of provisioning the Matrix on your Ubuntu server. This anisible playbook is a repository whcih should be cloned to an ansible supported OS that has the ability to SSH into the Ubuntu host. All the parameters and repositories used by in the Nexus project have been compiled in the --inventory/host_vars-- folder. To modify this to work on another server domain be sure to rename the matrix.justdrake.com sub-folder to `matrix.<your-domain>` and enter your Ubuntu host information in the Hosts file. `ansible_host=<your-public-ip>` and `ansible_ssh_user=<admin-user-account-ubuntu>`. `become` and `become_useer` should be set to true if the user account deticated to hosting the server doen't have root permisions. 
+The **Ansible-Deployment-Script-for-Nexus-Matrix-configuration** is a helper ansible script created by Slavi Pantaleev (https://github.com/spantaleev) and extended by Matrix contributors to automate the task of provisioning the Matrix on your Ubuntu server. This anisible playbook is a repository whcih should be cloned to an ansible supported OS that has the ability to SSH into the Ubuntu host. All the parameters and repositories used by in the Nexus project have been compiled in the **inventory/host_vars** folder. To modify this to work on another server domain be sure to rename the matrix.justdrake.com sub-folder to `matrix.<your-domain>` and enter your Ubuntu host information in the Hosts file. `ansible_host=<your-public-ip>` and `ansible_ssh_user=<admin-user-account-ubuntu>`. `become` and `become_useer` should be set to true if the user account deticated to hosting the server doen't have root permisions. 
 
 Additional information can be found in the `hosts` file. If you decisde to host this locally you can skip part 1.
 
@@ -28,7 +28,7 @@ The following configuration settings need to be added to yoru DNS service record
 
 #### 2. Configure the Ansible Playbook.
 After cloning the playbook to a secondary host that has Ansible 2.8 or later installed, you can modify our precompiled vars.yml file for your domain.
-This can be found in --inventory/host_vars/`matrix.<your-domain>`--.
+This can be found in **inventory/host_vars/`matrix.<your-domain>`**.
 `matrix_domain: <your-doamain>` is used as avariable accross the deployment script to provision all services to your domain.
 `matrix_ssl_lets_encrypt_support_email` is used to register your Let's Encrypt account with the certificate authority for SSL connections.
 `matrix_postgres_connection_password` is used to set up authentication for your database connection.
