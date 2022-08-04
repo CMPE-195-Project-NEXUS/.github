@@ -9,6 +9,8 @@
 ## Gun JS Backend with React Implimentaion - Beta
 
 ## Matrix(Server)/Cinny(Client) Implimentation - Final
+**Self-deployment is optional. This will be hosted on nexus.justdrake.com until at least August 15, 2022 for evaluation.**
+
 To deploy this on a public URL be sure to follow the guidence outlined below to configure your domain's DNS to delegate Matrix related traffic.
 
 The Matrix API will use unique identifier like `@<username>:<your-domain>` in authermtication and establishing identities on the server.
