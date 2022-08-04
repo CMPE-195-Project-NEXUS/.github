@@ -54,7 +54,7 @@ Ensure that you are able to connect to your server from the secondary host that 
 #### 4. Deploy the ansible script.
 Once you point your terminal screen to the directory which the repro was cloned to you can run the following terminal command. Note this is a universal script for all Matrix built in services only the items used in the backend of the nexus project are instantiated.
 ```bash
-ansible-playbook -i inventory/hosts setup.yml --tags=setup-all
+ansible-playbook -i inventory/hosts setup.yml --tags=setup-all -K
 ```
 #### 5. Configuring iMessage (Optional)
 Configuring iMessage will require a seperate Mac host. 
